@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Lecture_4_examples</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_spinner">Spinner</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="books">
+        <item>Well Designed</item>
+        <item>Att skapa effektiva team</item>
+        <item>About face</item>
+    </string-array>
+    <string-array name="books_isbn">
+        <item>08235090234</item>
+        <item>03423049203</item>
+        <item>75405298234</item>
+    </string-array>
+</resources>
