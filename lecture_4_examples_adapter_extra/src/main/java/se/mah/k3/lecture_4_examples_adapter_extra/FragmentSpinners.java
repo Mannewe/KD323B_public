@@ -38,15 +38,15 @@ public class FragmentSpinners extends Fragment implements AdapterView.OnItemSele
     @Override
     public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
             if (parent.getId()==R.id.spinner_book_names){
-                String[] booknames = getResources().getStringArray(R.array.books);
-                Log.i("FragmentWithSpinners","Selected position:  "+position+" and book item " +  booknames[position]);
-                Toast.makeText(this.getActivity(),"Selected position:  "+position+" and book item " +  booknames[position],Toast.LENGTH_LONG).show();
+                String[] bookNames = getResources().getStringArray(R.array.books);
+                Log.i("FragmentWithSpinners","Selected position:  "+position+" and book item " +  bookNames[position]);
+                Toast.makeText(this.getActivity(),"Selected position:  "+position+" and book item " +  bookNames[position],Toast.LENGTH_LONG).show();
             }
 
             if (parent.getId()==R.id.spinner_other_book_names){
                 String[] isbn_numbers = getResources().getStringArray(R.array.books_isbn);
-                Log.i("FragmentWithSpinners","Selected position:  "+position+" and isbn item " +  FragmentList.books.get(position).getTitle());
-                Toast.makeText(this.getActivity(),"Selected position:  "+position+" and isbn item " +  FragmentList.books.get(position).getTitle(),Toast.LENGTH_LONG).show();
+                Log.i("FragmentWithSpinners","Selected position:  "+position+" with title " +  FragmentList.books.get(position).getTitle());
+                Toast.makeText(this.getActivity(),"Selected position:  "+position+" with title " +  FragmentList.books.get(position).getTitle(),Toast.LENGTH_LONG).show();
             }
     }
 

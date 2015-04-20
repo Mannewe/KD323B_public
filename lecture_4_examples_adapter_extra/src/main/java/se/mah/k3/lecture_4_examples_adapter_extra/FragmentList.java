@@ -25,6 +25,7 @@ public class FragmentList extends Fragment {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        books.clear();
         Drawable d = getResources().getDrawable(R.drawable.img1);
         books.add(new Book("In the process","44535345",d));
         d = getResources().getDrawable(R.drawable.img2);
