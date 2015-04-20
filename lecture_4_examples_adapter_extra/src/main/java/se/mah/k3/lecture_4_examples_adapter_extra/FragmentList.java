@@ -18,7 +18,7 @@ import java.util.ArrayList;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class FragmentWithList extends Fragment {
+public class FragmentList extends Fragment {
    public static ArrayList<Book> books = new ArrayList<Book>();
 
     //This method comes first so lets create the books here

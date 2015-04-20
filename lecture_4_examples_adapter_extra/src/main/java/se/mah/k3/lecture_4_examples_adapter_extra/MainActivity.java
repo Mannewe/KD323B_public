@@ -16,7 +16,7 @@ public class MainActivity extends ActionBarActivity {
         setContentView(R.layout.activity_main);
         FragmentManager fm = getFragmentManager();
         FragmentTransaction ft = fm.beginTransaction();
-        ft.replace(R.id.main_layout,new FragmentWithList());
+        ft.replace(R.id.main_layout,new FragmentList());
         ft.commit();
     }
 
@@ -43,7 +43,7 @@ public class MainActivity extends ActionBarActivity {
         if (id == R.id.action_spinner) {
             FragmentManager fm = getFragmentManager();
             FragmentTransaction ft = fm.beginTransaction();
-            ft.replace(R.id.main_layout,new FragmentWithSpinners());
+            ft.replace(R.id.main_layout,new FragmentSpinners());
             ft.addToBackStack(null);
             ft.commit();
             return false;
