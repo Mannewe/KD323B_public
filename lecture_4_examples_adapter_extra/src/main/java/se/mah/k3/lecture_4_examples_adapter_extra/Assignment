@@ -14,4 +14,4 @@ Topics:
  Group 5: Communication between fragments with Line 55-50 in FragmentWithList
  Group 6: "FragmentList.books.get(position)" in the class FragmentSpinners
  Group 7: What does Serializable mean and why does the class Book implement Serializable.
- Group 8: Why does spinner2 in FragmentWithSpinners print the title of the book in the spinner.
+ Group 8: Why does spinner2 in FragmentSpinners print the title of the book in the spinner.
