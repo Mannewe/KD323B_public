@@ -6,13 +6,13 @@
  4: (5 Minutes) Present your part of the code to the rest of the class On WhiteBoard,  No computer).
 
 Topics:
- Group 1: The ActionBar and Selecting menu items.
- Group 2: DialogFragment
- Group 3: Spinners
- Group 4: FragmentList
- Group 5: Communication between fragments with Line 55-50 in FragmentWithList
- Group 6: "FragmentList.books.get(position)" in the class FragmentSpinners
- Group 7: What is the meaning of Serializable and why does the class Book implement Serializable.
- Group 8: Why does spinner2 in FragmentSpinners print the title of the book in the spinner.
- Group 9: Draw an UML diagram for all the classes, include important classes, methods, interfaces and inheritance.
- Group 10: MyListAdapter
+ Group 1: The ActionBar and Selecting menu items. ok
+ Group 2: DialogFragment: ok
+ Group 3: Spinners: ok
+ Group 4: FragmentList: ok
+ Group 5: Communication between fragments with Line 55-60 in FragmentWithList: Ok
+ Group 6: "FragmentList.books.get(position)" in the class FragmentSpinners:  ok
+ Group 7: What is the meaning of Serializable and why does the class Book implement Serializable. Ok
+ Group 8: Why does spinner2 in FragmentSpinners print the title of the book in the spinner.: Ok
+ Group 9: Draw an UML diagram for all the classes, include important classes, methods, interfaces and inheritance.: Ok
+ Group 10: MyListAdapter: Ok
