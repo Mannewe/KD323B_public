@@ -80,12 +80,12 @@ public class Parser {
 				String fromStationID ="";
 				for (int j =0;j < fromNode.getLength();j++){
 					Element e2 = (Element) fromNode.item(j);
-                    //Changed here so it takes the first station.
-                    //If there journey consisted of changes it took the start station for the last "leg"
-                    if(j==0) {
-                        fromStationName = parser.getValue(e2, "Name");
-                        fromStationID = parser.getValue(e2, "Id");
-                    }
+                                //Changed here so it takes the first station.
+                                //If there journey consisted of changes it took the start station for the last "leg"
+                                if(j==0) {
+                                    fromStationName = parser.getValue(e2, "Name");
+                                    fromStationID = parser.getValue(e2, "Id");
+                                }
 				}
 				fromStation = new Station(fromStationName, fromStationID);	
 				
